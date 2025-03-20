@@ -1,0 +1,13 @@
+{
+  "name": "categorizacao-nodejs",
+  "version": "1.0.0",
+  "description": "Desafio para categorizar produtos e analisar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "stats": "node stats.js"
+  },
+  "keywords": [],
+  "author": "Danillo Verardo",
+  "license": "ISC"
+}
