@@ -24,6 +24,7 @@ fs.readFile('categorized_products.json', 'utf8', (err, data) => {
                 count: item.count,
                 min_price: Math.min(...prices),
                 max_price: Math.max(...prices),
+                mean_price: parseFloat((prices.reduce((sum, price) => sum + price, 0) / item.count).toFixed(2))
             });
         });
 
