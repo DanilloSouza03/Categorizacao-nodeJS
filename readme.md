@@ -13,8 +13,15 @@ Executa a categorização dos produtos e gera um arquivo `categorized_products.j
 npm run start 
 ```
 
+![Imagem do Stats Gerado](img\start.png)
+
 ### 3️⃣ Gerar Estatísticas
 Analisa o arquivo `categorized_products.json` e exibe um resumo estatístico.
 ```sh
 npm run stats
 ```
+
+![Imagem do Stats Gerado](img\stats.png)
+
+---
+Este projeto foi desenvolvido por **Danillo de Souza**.  
